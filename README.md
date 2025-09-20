@@ -23,3 +23,33 @@ It walks through data loading, quick EDA, baseline **sentiment scoring with Text
 > The notebook file is: **`ChatGPT_Reviews_Analysis_with_Python.ipynb`**
 
 ---
+
+
+## 📦 Data
+- Expected CSV: **`chatgpt_reviews.csv`** (adjust the path in the notebook if needed).
+- At minimum, provide a column with review text (e.g., `text`). Optional columns like rating, date, or source can be used for richer analysis.
+
+If your dataset is private, place a small **sample** (10–50 rows) in `data/` and update the path in the notebook.
+
+---
+
+## 🧠 Method in Brief
+1. **Load & inspect** the dataset; basic cleaning.
+2. **Text preprocessing** (lowercasing, punctuation removal, stopwords where needed).
+3. **Sentiment** via **TextBlob**: polarity in `[-1, 1]`, subjectivity in `[0, 1]`.
+4. **Visualization** with Plotly (distributions, frequent terms).
+5. *(Optional)* **Vectorize** (TF‑IDF) and train a simple classifier with scikit‑learn.
+
+### Minimal sentiment example
+```python
+from textblob import TextBlob
+import pandas as pd
+
+df = pd.read_csv("chatgpt_reviews.csv")
+df["polarity"] = df["text"].astype(str).apply(lambda t: TextBlob(t).sentiment.polarity)
+df["subjectivity"] = df["text"].astype(str).apply(lambda t: TextBlob(t).sentiment.subjectivity)
+df.head()
+```
+
+---
+
