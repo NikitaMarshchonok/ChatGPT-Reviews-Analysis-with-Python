@@ -1,7 +1,5 @@
 # ChatGPT Reviews Analysis (Python)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/blob/main/ChatGPT_Reviews_Analysis_with_Python.ipynb)
-> After pushing to GitHub, replace `<YOUR_GITHUB_USERNAME>/<YOUR_REPO>` in the link above.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 ![pandas](https://img.shields.io/badge/pandas-data--wrangling-150458)
