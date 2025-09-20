@@ -84,6 +84,32 @@ Run all cells top‑to‑bottom. In **Google Colab**, just open the notebook via
 
 ---
 
+## 🧰 Tech Stack
+- **Python** (3.10+) • **pandas** • **TextBlob** • **Plotly** • **scikit‑learn** • 
+
+> Detected in the notebook: `pandas`, `plotly`, `sklearn`, `textblob`.
+
+---
+
+## 🛣️ Roadmap
+- Add TF‑IDF + a baseline classifier (e.g., Logistic Regression or Naive Bayes).  
+- Add evaluation: accuracy, F1, precision/recall, ROC‑AUC, confusion matrix.  
+- Interpretability: word importance, error analysis, SHAP/LIME (optional).  
+- Export a trained model (`joblib`) and serve it with a small FastAPI endpoint.
+
+---
+
+## 📜 License
+MIT
+
+---
+
+## 🙌 Author
+**Nikita Marshchonok**  
+GitHub: https://github.com/NikitaMarshchonok  
+LinkedIn: http://www.linkedin.com/in/nikita-marshchonok  
+Email: n.marshchonok@gmail.com
+
 
 
 
