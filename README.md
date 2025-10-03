@@ -111,6 +111,7 @@ Run all cells top‑to‑bottom. In **Google Colab**, just open the notebook via
 GitHub: https://github.com/NikitaMarshchonok  
 LinkedIn: http://www.linkedin.com/in/nikita-marshchonok  
 Email: n.marshchonok@gmail.com
+telegram: @nikitamarshchonok
 
 
 
