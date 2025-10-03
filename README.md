@@ -31,12 +31,7 @@ If your dataset is private, place a small **sample** (10–50 rows) in `data/` a
 
 ---
 
-## 🧠 Method in Brief
-1. **Load & inspect** the dataset; basic cleaning.
-2. **Text preprocessing** (lowercasing, punctuation removal, stopwords where needed).
-3. **Sentiment** via **TextBlob**: polarity in `[-1, 1]`, subjectivity in `[0, 1]`.
-4. **Visualization** with Plotly (distributions, frequent terms).
-5. *(Optional)* **Vectorize** (TF‑IDF) and train a simple classifier with scikit‑learn.
+
 
 ### Minimal sentiment example
 ```python
