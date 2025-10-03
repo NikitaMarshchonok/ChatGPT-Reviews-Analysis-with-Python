@@ -102,9 +102,6 @@ Run all cells top‑to‑bottom. In **Google Colab**, just open the notebook via
 
 ---
 
-## 📜 License
-MIT
-
 ---
 
 ## 🙌 Author
